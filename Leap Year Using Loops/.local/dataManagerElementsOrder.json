@@ -1,0 +1,94 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsLeapYear&Sequence_1",
+        "Year&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LeapYearFlowChart.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Rename Invoices.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NewFileName&Sequence_1",
+        "InvoicesArray&Sequence_1",
+        "FolderPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Switch Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_2",
+        "File&Sequence_1",
+        "InvoicesDirectory&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Parallel Activity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UserInput&Sequence_1",
+        "TaxApplied&Sequence_1",
+        "UserInputAfterTax&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Practice 1 - For Each and If Statement.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Max&Sequence_1",
+        "Min&Sequence_1",
+        "Numbers&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Practice 2 Switch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AxCodes&Sequence_3",
+        "variable2&Sequence_3",
+        "ErrorCodesCx&Sequence_1",
+        "ErrorCodesBx&Sequence_1",
+        "ErrorCodesAx&Sequence_1",
+        "ErrorCodes&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
