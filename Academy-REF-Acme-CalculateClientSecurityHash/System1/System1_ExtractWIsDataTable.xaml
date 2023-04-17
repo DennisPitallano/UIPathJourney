@@ -98,6 +98,7 @@
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="System1_ExtractWIsDataTable" sap:VirtualizedContainerService.HintSize="546,1025" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -151,7 +152,7 @@
                       <InArgument x:TypeArguments="x:String">["Status"]</InArgument>
                     </ui:FilterOperationArgument.Column>
                     <ui:FilterOperationArgument.Operand>
-                      <InArgument x:TypeArguments="x:String">["Completed"]</InArgument>
+                      <InArgument x:TypeArguments="x:String">["Open"]</InArgument>
                     </ui:FilterOperationArgument.Operand>
                   </ui:FilterOperationArgument>
                   <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
