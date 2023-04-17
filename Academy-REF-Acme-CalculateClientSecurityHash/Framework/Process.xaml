@@ -94,6 +94,7 @@
       <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="496,1504" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -159,7 +160,7 @@
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="HashResult" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_Status">
-          <Literal x:TypeArguments="x:String">Open</Literal>
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;UpdateStatus&quot;).ToString" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_WIID">
           <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_TransactionItem(&quot;WIID&quot;).ToString" />
